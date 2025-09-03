@@ -5,7 +5,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-black text-white py-20 px-6 md:px-20 h-screen flex items-center">
+    <section className="bg-black text-white py-20 px-6 md:px-20 min-h-screen flex items-center">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center text-indigo-500">
