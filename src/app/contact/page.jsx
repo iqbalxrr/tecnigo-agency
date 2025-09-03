@@ -9,8 +9,8 @@ const ContactSection = () => {
     <section className="bg-black text-white py-20 px-6 md:px-20 min-h-screen ">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center text-indigo-500">
-          Get in Touch
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center text-purple-500">
+          Get in Touch with <span className="text-white">Tecnigo</span>
         </h2>
         <p className="text-lg md:text-xl text-gray-300 mb-12 text-center">
           Have a project in mind or want to work together? Reach out to us, and we’ll respond as quickly as possible.
@@ -19,17 +19,17 @@ const ContactSection = () => {
         {/* Contact Info */}
         <div className="grid md:grid-cols-3 gap-8 mb-12 text-center">
           <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 flex flex-col items-center">
-            <Mail className="w-10 h-10 text-indigo-400 mb-4"/>
+            <Mail className="w-10 h-10 text-green-400 mb-4"/>
             <h3 className="text-2xl font-semibold mb-2 text-indigo-400">Email</h3>
             <p className="text-gray-300">info@tecnigo.com</p>
           </div>
           <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 flex flex-col items-center">
-            <Phone className="w-10 h-10 text-indigo-400 mb-4"/>
+            <Phone className="w-10 h-10 text-green-400 mb-4"/>
             <h3 className="text-2xl font-semibold mb-2 text-indigo-400">Phone</h3>
             <p className="text-gray-300">+880 123 456 789</p>
           </div>
           <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 flex flex-col items-center">
-            <MapPin className="w-10 h-10 text-indigo-400 mb-4"/>
+            <MapPin className="w-10 h-10 text-green-400 mb-4"/>
             <h3 className="text-2xl font-semibold mb-2 text-indigo-400">Address</h3>
             <p className="text-gray-300">Dhaka, Bangladesh</p>
           </div>
@@ -61,7 +61,7 @@ const ContactSection = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300"
+              className="w-full bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-600 hover:to-purple-400 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300"
             >
               Send Message
             </button>

@@ -8,8 +8,8 @@ const AboutUs = () => {
     <section className="bg-black text-white py-20 px-6 md:px-20 min-h-screen flex items-center">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center text-indigo-500">
-          About Tecnigo
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center text-white ">
+          About <span className="text-purple-500">Tecnigo</span>
         </h1>
         
         {/* Intro */}
@@ -22,19 +22,19 @@ const AboutUs = () => {
         {/* Our Values */}
         <div className="grid md:grid-cols-3 gap-8 text-center">
           <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300">
-            <h2 className="text-2xl font-semibold mb-2 text-indigo-400">Creativity</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-green-400">Creativity</h2>
             <p className="text-gray-300">
               We design websites that are not just beautiful but also intuitive and engaging.
             </p>
           </div>
           <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300">
-            <h2 className="text-2xl font-semibold mb-2 text-indigo-400">Innovation</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-green-400">Innovation</h2>
             <p className="text-gray-300">
               We embrace the latest technologies to build modern, scalable, and high-performance web solutions.
             </p>
           </div>
           <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300">
-            <h2 className="text-2xl font-semibold mb-2 text-indigo-400">Reliability</h2>
+            <h2 className="text-2xl font-semibold mb-2 text-green-400">Reliability</h2>
             <p className="text-gray-300">
               We are committed to delivering projects on time and providing continuous support to our clients.
             </p>
@@ -48,7 +48,7 @@ const AboutUs = () => {
           </p>
           <a 
             href="/contact" 
-            className="inline-block bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300"
+            className="inline-block bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-600 hover:to-purple-400 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300"
           >
             Contact Us
           </a>
