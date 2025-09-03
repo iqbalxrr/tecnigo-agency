@@ -17,18 +17,18 @@ const ContactSection = () => {
         </p>
 
         {/* Contact Info */}
-        <div className="grid md:grid-cols-3 gap-8 mb-12 text-center">
-          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 flex flex-col items-center">
+        <div className="grid md:grid-cols-3 gap-14 mb-12 text-center">
+          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl border-purple-500 shadow-[0_0_30px_rgba(168,85,247,0.6)] hover:shadow-indigo-500/50 transition-all duration-300 flex flex-col items-center">
             <Mail className="w-10 h-10 text-green-400 mb-4"/>
             <h3 className="text-2xl font-semibold mb-2 text-indigo-400">Email</h3>
             <p className="text-gray-300">info@tecnigo.com</p>
           </div>
-          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 flex flex-col items-center">
+          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl border-purple-500 shadow-[0_0_30px_rgba(168,85,247,0.6)] hover:shadow-indigo-500/50 transition-all duration-300 flex flex-col items-center">
             <Phone className="w-10 h-10 text-green-400 mb-4"/>
             <h3 className="text-2xl font-semibold mb-2 text-indigo-400">Phone</h3>
             <p className="text-gray-300">+880 123 456 789</p>
           </div>
-          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300 flex flex-col items-center">
+          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl border-purple-500 shadow-[0_0_30px_rgba(168,85,247,0.6)] hover:shadow-indigo-500/50 transition-all duration-300 flex flex-col items-center">
             <MapPin className="w-10 h-10 text-green-400 mb-4"/>
             <h3 className="text-2xl font-semibold mb-2 text-indigo-400">Address</h3>
             <p className="text-gray-300">Dhaka, Bangladesh</p>
@@ -36,8 +36,8 @@ const ContactSection = () => {
         </div>
 
         {/* Contact Form */}
-        <div className="max-w-7xl mx-auto">
-          <form className="bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] p-8 rounded-xl shadow-lg">
+        <div className="max-w-7xl mx-auto pt-16">
+          <form className="bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] p-8 rounded-xl border-purple-500 shadow-[0_0_30px_rgba(168,85,247,0.6)] hover:shadow-indigo-500/50 transition-all duration-300">
             <div className="mb-4">
               <input
                 type="text"

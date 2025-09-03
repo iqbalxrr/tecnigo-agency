@@ -20,20 +20,20 @@ const AboutUs = () => {
         </p>
 
         {/* Our Values */}
-        <div className="grid md:grid-cols-3 gap-8 text-center">
-          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300">
+        <div className="grid md:grid-cols-3 gap-14 text-center">
+          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl border-purple-500 shadow-[0_0_30px_rgba(168,85,247,0.6)] hover:shadow-indigo-500/50 transition-all duration-300">
             <h2 className="text-2xl font-semibold mb-2 text-green-400">Creativity</h2>
             <p className="text-gray-300">
               We design websites that are not just beautiful but also intuitive and engaging.
             </p>
           </div>
-          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300">
+          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl border-purple-500 shadow-[0_0_30px_rgba(168,85,247,0.6)] hover:shadow-indigo-500/50 transition-all duration-300">
             <h2 className="text-2xl font-semibold mb-2 text-green-400">Innovation</h2>
             <p className="text-gray-300">
               We embrace the latest technologies to build modern, scalable, and high-performance web solutions.
             </p>
           </div>
-          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl shadow-lg hover:shadow-indigo-500/50 transition-all duration-300">
+          <div className="p-6 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] rounded-xl border-purple-500 shadow-[0_0_30px_rgba(168,85,247,0.6)] hover:shadow-indigo-500/50 transition-all duration-300">
             <h2 className="text-2xl font-semibold mb-2 text-green-400">Reliability</h2>
             <p className="text-gray-300">
               We are committed to delivering projects on time and providing continuous support to our clients.
