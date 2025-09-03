@@ -40,7 +40,7 @@ export default function HomePortfolio() {
         {/* Header */}
       <div className="text-center mb-16">
         <p className="text-green-400 uppercase text-sm">what we do</p>
-        <h2 className="text-4xl font-bold mt-2">
+        <h2 className="text-4xl font-bold mt-2 text-white">
           Our <span className="text-purple-400">Portfolio</span> <br />
           
         </h2>
