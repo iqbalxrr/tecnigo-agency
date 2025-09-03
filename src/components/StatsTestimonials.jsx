@@ -88,7 +88,7 @@ const TestimonialSection = () => {
             exit={{ opacity: 0, y: -30 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8  items-center">
               {/* Left - Image */}
               <motion.img
                 src={testimonial.image}

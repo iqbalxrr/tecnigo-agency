@@ -113,11 +113,11 @@ export default function PricingSection() {
           </h3>
         </div>
 
-        <div className="grid md:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-4 gap-14">
           {bonuses.map((bonus, idx) => (
             <div
               key={idx}
-              className="rounded-2xl border text-center border-gray-700 p-6 h-36 bg-gradient-to-b from-[#141414] to-[#0d0d0d] hover:border-purple-500 transition"
+              className="rounded-2xl border-purple-500 shadow-[0_0_30px_rgba(168,85,247,0.6)] text-center  p-6 h-36 bg-gradient-to-b from-[#141414] to-[#0d0d0d] hover:border-purple-500 transition"
             >
               <h4 className="font-semibold text-purple-400 mb-2">
                 {bonus.title}

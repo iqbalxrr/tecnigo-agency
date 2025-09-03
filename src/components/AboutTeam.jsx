@@ -49,7 +49,7 @@ const AboutTeam = () => {
           {teamMembers.map((member, idx) => (
             <motion.div
               key={idx}
-              className="relative rounded-2xl overflow-hidden cursor-pointer border border-gray-700 bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] shadow-lg hover:shadow-[0_0_30px_rgba(168,85,247,0.6)] transition"
+              className="relative rounded-2xl overflow-hidden cursor-pointer border  bg-gradient-to-b from-[#1a1a1a] to-[#0d0d0d] border-purple-500 shadow-[0_0_30px_rgba(168,85,247,0.6)] hover:shadow-[0_0_30px_rgba(168,85,247,0.8)] transition"
               whileHover="hover"
               initial="rest"
               animate="rest"

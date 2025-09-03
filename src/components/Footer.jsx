@@ -39,20 +39,21 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="w-full bg-[#240E35] text-gray-300 py-40">
+    <footer className="w-full bg-[#240E35]  pt-40 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-6 py-12">
           {/* Logo & Contact */}
           <div className="col-span-full lg:col-span-2 text-center lg:text-left">
-            <a href="#" className="inline-flex items-center justify-center lg:justify-start mb-4">
+            {/* <a href="#" className="inline-flex items-center justify-center lg:justify-start mb-4">
               <img src="/tecnigo-logo.png" alt="Tecnigo Logo" className="h-10 w-auto" />
-            </a>
+            </a> */}
+            <h1 className="text-4xl pb-2 font-bold text-white">Tecnigo</h1>
             <p className="text-gray-300 mb-4">
               Trusted by clients worldwide. Have questions? Reach out to us!
             </p>
             <a
               href="#"
-              className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white text-sm px-6 py-2 rounded-full transition"
+              className="inline-block bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-600 hover:to-purple-400 text-white text-sm px-6 py-2 rounded-full transition"
             >
               Contact Us
             </a>
