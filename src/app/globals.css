@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
+@import "aos/dist/aos.css";
+
+
 :root {
-  --background: #ffffff;
+  --background: #000000;
   --foreground: #171717;
 }
 
